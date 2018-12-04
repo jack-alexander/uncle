@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Open Sans', sans-serif;
+  color: #f39d51;
+}
+
+.uncle-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: auto;
+}
+
+.uncle-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  animation: colorchange 30s infinite;
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 30s infinite;
+  /* Chrome and Safari */
+}
+
+@keyframes colorchange {
+  0% {
+    background: #AD5B2E;
+  }
+
+  20% {
+    background: #DC883E;
+  }
+
+  40% {
+    background: #B3946F;
+  }
+
+  60% {
+    background: #6A4C35;
+  }
+
+  80% {
+    background: #56672F;
+  }
+
+  100% {
+    background: #AD5B2E;
+  }
+}
+
+@-webkit-keyframes colorchange
+
+/* Safari and Chrome - necessary duplicate */
+  {
+  0% {
+    background: #AD5B2E;
+  }
+
+  20% {
+    background: #DC883E;
+  }
+
+  40% {
+    background: #B3946F;
+  }
+
+  60% {
+    background: #6A4C35;
+  }
+
+  80% {
+    background: #56672F;
+  }
+
+  100% {
+    background: #AD5B2E;
+  }
+}
+
+.uncle-banner-logo {
+  background-image: url("/assets/uncle-logo-alt.png");
+  height: 60vh;
+  width: 20rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.uncle-banner-tagline h1 {
+  color: #ffffff;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.uncle-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+  background-color: #ffffff;
+  animation: colorchange 30s infinite;
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 30s infinite;
+  /* Chrome and Safari */
+}
+
+@keyframes colorchange {
+  0% {
+    background: #AD5B2E;
+  }
+
+  20% {
+    background: #DC883E;
+  }
+
+  40% {
+    background: #B3946F;
+  }
+
+  60% {
+    background: #6A4C35;
+  }
+
+  80% {
+    background: #56672F;
+  }
+
+  100% {
+    background: #AD5B2E;
+  }
+}
+
+@-webkit-keyframes colorchange
+
+/* Safari and Chrome - necessary duplicate */
+  {
+  0% {
+    background: #AD5B2E;
+  }
+
+  20% {
+    background: #DC883E;
+  }
+
+  40% {
+    background: #B3946F;
+  }
+
+  60% {
+    background: #6A4C35;
+  }
+
+  80% {
+    background: #56672F;
+  }
+
+  100% {
+    background: #AD5B2E;
+  }
+}
+
+.uncle-details-container {
+  padding: 1rem;
+}
+
+.uncle-details-header {
+  text-transform: uppercase;
+}
+
+.uncle-details-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-style: italic;
+  padding-right: 1rem;
+}
+
+.uncle-details-subtitle h4 {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.uncle-menu {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: 1rem;
+  padding: 3rem;
+  border-style: none;
+  border-width: 1px;
+  border-color: #B3946F;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.uncle-menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.4rem;
+  width: auto;
+  padding-bottom: 1rem;
+}
+
+.uncle-menu-item {
+  /* width: 100%; */
+  padding-bottom: 0.6rem;
+  color: #6A4C35;
+}
+
+.uncle-menu-item:last-of-type {
+  padding-bottom: 0rem;
+}
+
+.uncle-menu-item-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.uncle-menu-item-title-center {
+  text-align: center !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.uncle-menu-item-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 30rem;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+h1 {
+  color: #c67e3e;
+}
+
+.uncle-trading {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uncle-trading-day {
+  text-align: right;
+  padding-right: 0.6rem;
+  font-size: 0.85rem;
+  width: 3rem;
+  color: #DC883E;
+  font-weight: 600;
+}
+
+.uncle-trading-time {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  width: 8rem;
+  font-weight: 500;
+  color: #DC883E;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.uncle-menu-item-description {
+  text-align: left;
+  max-width: 26rem;
+  padding-right: 2rem;
+  font-size: 0.85rem;
+  color: #B3946F;
+}
+
+.uncle-menu-item-price {
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #B3946F;
+}
+
+.uncle-menu p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  line-height: 20px;
+}
+
+.menu-header {
+  padding-top: 2rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.1rem;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.uncle-details-social {}
+
+.uncle-details-press {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.break {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #AD5B2E;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+h5 {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.uncle-details-press a {
+  text-decoration: underline;
+  color: #F39D51;
+  font-size: 1.3em;
+}
+
+.uncle-details-press-post {
+  padding-right: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .uncle-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uncle-banner {
+    width: 100%;
+  }
+
+  .uncle-details {
+    background-color: #ffffff;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .uncle-menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 0px;
+    margin: 0rem;
+  }
+}
