@@ -97,6 +97,9 @@ body {
   color: #ffffff;
   margin-top: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navigation-link {
@@ -200,9 +203,9 @@ body {
 .uncle-menu {
   display: flex;
   flex-direction: column;
-  max-width: 30rem;
-  margin: 1rem;
-  padding: 3rem;
+  max-width: 26rem;
+  margin: 1rem 2rem 1rem 2rem;
+  padding: 1.2rem;
   border-style: none;
   border-width: 1px;
   border-color: #B3946F;
@@ -214,14 +217,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0.4rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
   width: auto;
   padding-bottom: 1rem;
 }
 
 .uncle-menu-item {
   /* width: 100%; */
-  padding-bottom: 0.6rem;
+  /* padding-top: 0.8rem; */
+  padding-bottom: 0.4rem;
   color: #6A4C35;
 }
 
@@ -231,12 +236,12 @@ body {
 
 .uncle-menu-item-title {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .uncle-menu-item-title-center {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -246,7 +251,7 @@ body {
   justify-content: space-between;
   max-width: 30rem;
   margin-top: 0.2rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 h1 {
@@ -258,7 +263,7 @@ h1 {
   flex-direction: row;
   width: auto;
   margin-top: 0.2rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -266,7 +271,7 @@ h1 {
 .uncle-trading-day {
   text-align: right;
   padding-right: 0.6rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   width: 3rem;
   color: #DC883E;
   font-weight: 600;
@@ -274,7 +279,7 @@ h1 {
 
 .uncle-trading-time {
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1.2rem;
   width: 8rem;
   font-weight: 500;
@@ -287,13 +292,13 @@ h1 {
   text-align: left;
   max-width: 26rem;
   padding-right: 2rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #B3946F;
 }
 
 .uncle-menu-item-price {
   text-align: right;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: #B3946F;
 }
@@ -307,7 +312,7 @@ h1 {
 .menu-header {
   padding-top: 2rem;
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.9rem;
 }
 
@@ -323,9 +328,9 @@ h1 {
 .uncle-details-press {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
 }
 
 .break {
@@ -343,7 +348,9 @@ h5 {
 .uncle-details-press a {
   text-decoration: underline;
   color: #F39D51;
-  font-size: 1.3em;
+  font-size: 1em;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
 }
 
 @media screen and (max-width: 1024px) {
