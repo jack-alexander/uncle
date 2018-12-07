@@ -84,7 +84,7 @@ body {
 }
 
 .uncle-banner-logo {
-  background-image: url("/assets/uncle-logo-alt.png");
+  background-image: url("https://authentic-uncle.com/assets/uncle-logo-alt.png");
   height: 60vh;
   width: 20rem;
   background-size: contain;
@@ -232,13 +232,12 @@ body {
 .uncle-menu-item-title {
   font-weight: 600;
   font-size: 1.1rem;
-  text-align: left;
 }
 
 .uncle-menu-item-title-center {
-  text-align: center !important;
   font-weight: 600;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 .uncle-menu-item-option {
@@ -302,7 +301,7 @@ h1 {
 .uncle-menu p {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
-  line-height: 20px;
+  line-height: 20px !importants;
 }
 
 .menu-header {
@@ -324,7 +323,7 @@ h1 {
 .uncle-details-press {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 1rem;
 }
@@ -345,10 +344,6 @@ h5 {
   text-decoration: underline;
   color: #F39D51;
   font-size: 1.3em;
-}
-
-.uncle-details-press-post {
-  padding-right: 1.6rem;
 }
 
 @media screen and (max-width: 1024px) {
